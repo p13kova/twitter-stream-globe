@@ -10,7 +10,11 @@ abhorrent	-3
 abhors	-3
 abilities	2
 ability	2
+ικανότητα -2
+//Giannis Kwvaios 2013098 cscw
 aboard	1
+εντός πλοίου 1
+//Giannis Kwvaios 2013098 cscw
 aborted	-1
 aborts	-1
 absentee	-1
@@ -25,15 +29,21 @@ abused	-3
 abuses	-3
 abusing	-3
 abusive	-3
+υβριστικός -3
+//Giannis Kwvaios 2013098 cscw
 accept	1
 acceptable	1
 acceptance	1
 accepted	1
+αποδεκτός 1
+//Giannis Kwvaios 2013098 cssw
 accepting	1
 accepts	1
 accessible	1
 accident	-2
 accidental	-2
+τυχαίος -2
+//Giannis Kwvaios 2013098 cssw
 accidentally	-2
 accidents	-2
 acclaim	2
@@ -59,6 +69,8 @@ acquitted	2
 acquitting	2
 acrimonious	-3
 active	1
+ενεργός 1
+//Giannis Kwvaios 2013098 cscw
 adequate	1
 admire	3
 admired	3
@@ -311,6 +323,8 @@ benefactor	2
 benefactors	2
 benefit	2
 benefits	2
+προνόμια 2
+//Giannis Kwvaios 2013098 cscw
 benefitted	2
 benefitting	2
 benevolent	3
@@ -335,7 +349,13 @@ bitter	-2
 bitterest	-2
 bitterly	-2
 bizarre	-2
+παράξενος -2
+//Giannis Kwvaios 2013098 cscw
 blackmail	-3
+εκβιασμός -3
+εκβιάζω -3
+//Giannis Kwvaios 2013098 cscw
+
 blackmailed	-3
 blackmailing	-3
 blackmails	-3
@@ -414,6 +434,8 @@ bullying	-2
 bummer	-2
 buoyant	2
 burden	-2
+βάρος -2
+/Giannis Kwvaios 2013098 cscw
 burdened	-2
 burdening	-2
 burdens	-2
