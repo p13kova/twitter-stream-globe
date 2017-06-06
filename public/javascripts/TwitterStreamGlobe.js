@@ -5,7 +5,7 @@
 	// Constants
 	POS_X = 0,
 	POS_Y = 0,
-	POS_Z = 1800,
+	POS_Z = 1500,
 	FOV = 45,
 	NEAR = 1,
 	FAR = 150000,
@@ -53,12 +53,12 @@
 	 */
 	function addEarth () {
 
-	  var planeGeometry = new THREE.planeGeometrylaneGeometry(1200, 500);
+	  var planeGeometry = new THREE.PlaneGeometry(1500, 800);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
+	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-map.jpg');
 
 	  var material = new THREE.ShaderMaterial({
 	    uniforms: uniforms,
@@ -163,7 +163,7 @@
 	 */ 
 	function render () {
 
-		//earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+		//earthMesh.rotation.y = earthMesh.rotation.y + 0.001;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();
